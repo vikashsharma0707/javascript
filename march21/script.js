@@ -1,7 +1,7 @@
 // function decleration
 
 
-/*function Sum(para1,para2,para3){
+function Sum(para1,para2,para3){
     return para1+para2+para3;
 }
 
@@ -17,7 +17,7 @@ document.getElementById("demo").innerHTML = result;
 console.log(result);
 document.getElementById("demo").innerHTML= result;
 document.write(result);
-alert(result);*/
+alert(result);
 
 
 
@@ -62,5 +62,5 @@ function multiply(num1,num2,num3){
     return num1*num2*num3;
 }
 
-let result = multiply(num1,num2,num3);
+let result1 = multiply(num1,num2,num3);
 console.log(result);

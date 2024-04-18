@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+<!-- for in  -->
+    <h1 id="demo"></h1>
+
+    <!-- <script> 
+        const person ={
+            fname:  "john",
+            iname:  "doe",
+            age:  25,
+            city: "bhopal",
+
+
+        };
+
+
+
+        let text= " ";
+        for(let x in person){
+            text+= person[x]+ "<br>";
+            console.log(person[x]);
+        }
+
+        document.getElementById("demo").innerHTML =text;
+    </script>-->
+
+
+   <!-- for in loop 
+    <script>
+        const arr =[1,2,,10,30,50];
+        let text = " ";
+        for(let x in arr){
+            text +=arr[x]+"<br>";
+        }
+
+        document.getElementById("demo").innerHTML = text;
+    </script>-->
+     <!-- for off loop 
+    <script>
+        const arr = ["Bmw","Mercedes","porche","Maruti","Nano"];
+        let text ="";
+        for(let x of arr){
+            text +=x+"<br>";
+        }
+        document.getElementById("demo").innerHTML =text;
+    
+    </script>
+    -->
+
+   <!-- for of string 
+    <script>
+        const name = "javascript";
+        let text ="";
+        for(let x of name){
+            text +=x+"<br>";
+        }
+        document.getElementById("demo").innerHTML =text;
+    
+    </script>
+    -->
+
+<!-- while loop  
+    <script>
+        let text= "";
+        let i=0;
+        while(i<10){
+            text+= i+ "<br>";
+            i++;
+            console.log(i);    
+        }
+        document.getElementById("demo").innerHTML=text;
+    </script>
+    -->
+
+    <script>
+        let text= "";
+        let i=0;
+        do{
+            text+=i;
+            i++;
+            console.log(i);
+        }
+
+        while(i<10);
+
+        document.getElementById("demo").innerHTML =text;
+    </script>
+    
+    <script src="forinloop.js"></script>
+</body>
+</html>

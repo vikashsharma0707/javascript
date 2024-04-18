@@ -5,5 +5,7 @@ document.write("<h1>This is a heading</h1>");
 
 
 document.querySelector("h1.heading").innerHTML = "this is new heading";
-document.getElementById("mypara").style.backgroundColor = "blue";
+document.getElementById("mypara").style.backgroundColor ="blue";
 document.querySelector("p.heading").innerHTML = "paragraph is here";
+
+

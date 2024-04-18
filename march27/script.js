@@ -1,6 +1,6 @@
-function display(){
+/*function display(){
     alert("This is a event");
-}
+}*/
 
 
 
