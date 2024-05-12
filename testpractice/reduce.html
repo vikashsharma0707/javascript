@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // it resturns result
+        //let arr =[1,2,3,4,5];
+        /*let output = arr.reduce((res,cur)=>{
+             return res+cur;
+        })*/
+
+        /*let output = arr.reduce((pre,cur)=>{
+             return pre>cur? pre: cur;
+        })
+
+
+        console.log(output);*/
+
+        // addition and multiply by using  reduce method
+        let n= prompt("enter any number");
+        let arr=[];
+
+        for(let i=0;i<=n;i++){
+            arr[i-1]=i;
+        }
+
+        console.log(arr);
+
+        let sum= arr.reduce((pre,cur)=>{
+            return pre+cur;
+        })
+
+        console.log(sum)
+
+        let multiply= arr.reduce((pre,cur)=>{
+            return pre*cur;
+        })
+
+        console.log(multiply)
+
+
+    </script>
+</body>
+</html>

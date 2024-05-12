@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // object
+
+        const student ={
+            name: "apna college",
+            age: 25,
+        }
+
+        console.log(student);
+        // to print name of the object element
+        console.log(student["name"]);
+
+        // to chnage the name of the element of object
+
+        student["name"]= "javascript";
+        console.log(student["name"]);
+
+        // to add the age
+        student["age"] =  student["age"]+1;
+
+        // print the object element 
+        // this is first method 
+        console.log(student["name"]);
+
+        // this is second method
+        console.log(student.name);
+       
+        // to check which type of data it is
+        console.log(typeof student);
+        
+        // to check which type of data tpye of object
+        console.log(typeof student["name"]);
+
+
+    </script>
+</body>
+</html>

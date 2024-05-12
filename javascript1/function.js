@@ -33,7 +33,7 @@ sum(2,9);*/
     let a=prompt("enter any number");
     cube=a*a*a;
     alert(cube);
-    document.wi
+
     
 }
 

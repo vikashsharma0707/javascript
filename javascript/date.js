@@ -37,7 +37,7 @@ document.write(now.getHours());*/
 
 // =================get minutes=======================//
 /*const now=new Date();
-document.write(now.getMinutes);*/
+document.write(now.getMinutes());*/
 
 // =================get seconds=======================//
 
@@ -84,9 +84,9 @@ document.write(now);*/
 
 // =====================set minutes====================
 
-const now =new Date();
+/*const now =new Date();
 now.setMinutes(10);
-document.write(now);
+document.write(now);*/
 
 
 
