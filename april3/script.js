@@ -18,6 +18,6 @@ function display(){
     let number= prompt("cube");
    console.log
 
-    nunber=n*n*n;
+    number=n*n*n;
 
 }
