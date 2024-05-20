@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        setTimeout(display,3000);
+        var count=0;
+        function display(msg,time){
+            count++;
+            if(count==time)
+            console.log("msg");
+        }
+
+
+        function hello(callback){
+            callback();
+        }
+
+        hello(display,3);
+    </script>
+</body>
+</html>

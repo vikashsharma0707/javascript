@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <h1>callback function</h1>
+   <p>the result of the calcukation is</p>
+   <p id="demo"></p>
+
+   <script>
+    function myDisplay(something){
+        document.getElementById("demo").innerHTML =something;
+    }
+
+
+    function myCalculator(num1,num2,xyz){
+        let sum= num1+num2;
+        xyz(sum);
+    }
+
+    myCalculator(5,5,myDisplay);
+   </script>
+</body>
+</html>
