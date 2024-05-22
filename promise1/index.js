@@ -1,4 +1,4 @@
-async function Dohomewoek(){
+async function Dohomework(){
     return new Promise((resolve,reject)=>{
          setTimeout(()=>{
             let homework = true;
@@ -47,7 +47,7 @@ async function takenrest(){
 
 }
 async function allworkdone(){
-    const dohomeworkresult = await Dohomewoek();
+    const dohomeworkresult = await Dohomework();
     console.log(dohomeworkresult);
 
     const lunchresult = await haveLunch();
