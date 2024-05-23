@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+
+
+
+async function Dowork(){
+    return new Promise((resolve,reject)=>{
+         setTimeout(()=>{
+            let work = true;
+              if(work){
+                resolve("promise is working");
+              }
+
+              else{
+                reject("promise is not working");
+              }
+         },2000);
+    });
+}
+
+
+
+async function allwork(){
+    const workresult = await Dowork();
+    console.log(workresult);
+}
+
+
+allwork();
+    </script>
+</body>
+</html>
