@@ -11,22 +11,22 @@
         <button onclick="display()">Click here</button>
         <br/>
     
-    
+
         <p id="demo"></p>
         <script>
             function password(){
                 var show ="";
                 var str =
-                         "ABCDEFGHIJKlMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789@#$%";
+                         "Most of us have childhood memories of gaping at our elders in wonder when they narrated to us the amusing fables of Aesop, the picturesque fairy tales, the funny anecdotes, the lyrical short stories, and so on.";
           
+                         
              for(let i=1;i<=8;i++){
                 var char =Math.floor(Math.random() * str.length+1);
                 show += str.charAt(char);
              }
     
                  return show;
-            }
-    
+            }   
     
             function display(){
                 document.getElementById("demo").innerHTML = password();
