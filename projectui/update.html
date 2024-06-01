@@ -12,6 +12,92 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <style>
+        body {
+          font-family: Arial, sans-serif;
+          margin: 0;
+          padding: 20px;
+          background-color: #f4f4f9;
+        }
+  
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-bottom: 20px;
+          background-color: #fff;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+  
+        table th,
+        table td {
+          padding: 15px;
+          text-align: left;
+        }
+  
+        table th {
+          background-color: #009879;
+          color: #ffffff;
+          text-transform: uppercase;
+          letter-spacing: 0.1em;
+        }
+  
+        table tr {
+          border-bottom: 1px solid #dddddd;
+        }
+  
+        table tr:nth-of-type(even) {
+          background-color: #f3f3f3;
+        }
+  
+        table tr:last-of-type {
+          border-bottom: 2px solid #009879;
+        }
+  
+        table tr:hover {
+          background-color: #f1f1f1;
+        }
+  
+        input[type="text"] {
+          width: 90%;
+          padding: 8px;
+          box-sizing: border-box;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          transition: all 0.3s ease;
+        }
+  
+        input[type="text"]:focus {
+          border-color: #009879;
+          outline: none;
+        }
+  
+        .button {
+          border: none;
+          padding: 10px 15px;
+          color: white;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 14px;
+          margin: 4px 2px;
+          cursor: pointer;
+          border-radius: 4px;
+        }
+  
+        .button-edit {
+          background-color: #4caf50; /* Green */
+        }
+  
+        .button-save {
+          background-color: #008cba; /* Blue */
+          display: none;
+        }
+  
+        .button-delete {
+          background-color: #f44336; /* Red */
+    }
+  </style>
   </head>
   <body>
     <nav >
@@ -34,7 +120,7 @@
           </a>
         </li>
         <li>
-          <a href="#">
+          <a href="display.html">
             <i class="fas fa-wallet"></i>
             <span class="new-item">Display data</span>
           </a>
@@ -42,7 +128,7 @@
         <li>
           <a href="update.html">
             <i class="fas fa-chart-bar"></i>
-            <span class="new-item">update Data</span>
+            <span class="new-item">Update Data</span>
           </a>
         </li>
         <li>
@@ -81,10 +167,8 @@
 
     <div class="hello">
       <h1>dashboard</h1>
-
    </div>
-   <p id="demo"></p>
-
-    <script src="js/display.js"></script>
+    <div id="demo"></div>
+    <script src="/js/update.js"></script>
   </body>
 </html>
