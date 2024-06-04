@@ -1,9 +1,9 @@
 async function dataShow() {
   let myTable = `
-    <table border="1px" width="600px" bgcolor="lightblue" align="center">
+    <table class="hello1" >
     <tr>
         <th>Employee no</th>
-        <th>Employee Nmae</th>
+        <th>Employee Name</th>
         <th>City</th>
         <th>Salary</th>
     </tr>
@@ -33,3 +33,7 @@ async function dataShow() {
 }
 
 dataShow();
+
+
+
+// border="1px" width="600px" bgcolor="lightblue" align="center"  margin-left:50%;

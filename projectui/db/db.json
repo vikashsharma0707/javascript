@@ -4,7 +4,7 @@
       "employeeno": "1",
       "name": "john doe",
       "city": "bhopal",
-      "salary": "000",
+      "salary": "100000",
       "id": "1"
     },
     {
@@ -13,20 +13,6 @@
       "name": "vikas",
       "city": "bhopal",
       "salary": "56000"
-    },
-    {
-      "id": "d031",
-      "employeeno": "vikash",
-      "name": "vikshs",
-      "city": "beohari",
-      "salary": "1000000"
-    },
-    {
-      "employeeno": "3",
-      "name": "Vikash",
-      "city": "Indore",
-      "salary": "450000",
-      "id": "0bba"
     }
   ]
 }
