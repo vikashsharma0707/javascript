@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="jquery.js"></script>
+    <script>
+        // $(document).ready(function (){
+        //     $("#mypara").hover(
+        //         function () {
+        //             alert("you entered paragraph");
+        //         },
+
+        //         function () {
+        //             alert("you exited paragraph");
+        //         }
+        //     );
+        // });
+
+        $(document).ready(function (){
+            $("#myinput").focus(function () {
+                $(this).css("background-color", "yellow");
+            });
+            
+            $("#myinput").blur(function (){
+                $(this).css("background-color", "green");
+             });
+        });
+    </script>
+</head>
+<body>
+    <p id="mypara">lorem</p>
+    <p id="para">lorem</p>
+    <p class="para1">lorem</p>
+    <input id="myinput"  type="text" />
+    <button>click</button>
+</body>
+</html>
