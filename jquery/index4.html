@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index4.css">
+    <script src="jquery.js"></script>
+    <script>
+        $(document).ready(function (){
+            $("button").click(function (){
+                $("#mybox").fadeOut ();
+                $(".box2").fadeOut("slow");
+                $(".box2").fadeOut(3000);
+            });
+        });
+
+    </script>
+    
+</head>
+<body>
+    <button>Fade</button>
+    <div id="mybox"  class="box box1"></div>
+    <div class="box box2"></div>
+    <div class="box box3"></div>
+</body>
+</html>
