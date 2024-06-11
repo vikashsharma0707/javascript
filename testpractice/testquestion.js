@@ -53,5 +53,22 @@ while(num>0){
     console.log(sum);*/
 
 
+/*function display(){
+    alert("hello");
+}*/
 
+
+
+/*function hello(a,b){
+ console.log(a+b);
+}
+
+hello(2,3);*/
+
+
+setTimeout(hello,3000);
+
+function hello(){
+    alert("hello");
+}
     

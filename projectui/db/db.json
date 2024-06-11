@@ -13,6 +13,13 @@
       "name": "vikas",
       "city": "bhopal",
       "salary": "56000"
+    },
+    {
+      "id": "72c8",
+      "employeeno": "3",
+      "name": "Vikas",
+      "city": "Indore",
+      "salary": "450000"
     }
   ]
 }

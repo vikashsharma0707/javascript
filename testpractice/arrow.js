@@ -15,11 +15,17 @@ hello(2,3);*/
 
 
 
-const display= ()=>{
+/*const display= ()=>{
     console.log("hello javascript");
 }
 
-display();
+display();*/
 
+
+const hello =(a,b) =>{
+    console.log(a+b);
+}
+
+hello(2,4);
 
 
