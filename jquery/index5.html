@@ -8,10 +8,10 @@
     <script src="jquery.js"></script>
     <script>
         $(document).ready(function (){
-            $("button").click(function (){
-                $("#mybox").fadeToogle ();
+            $(".hello").click(function (){
+                $("#mybox").fadeToogle();
                 $(".box2").fadeToogle("slow");
-                $(".box2").fadeToogle(3000);
+                $(".box3").fadeToogle(3000);
             });
         });
 
@@ -19,7 +19,7 @@
     
 </head>
 <body>
-    <button>Fade</button>
+    <button class="hello">Fade</button>
     <div id="mybox"  class="box box1"></div>
     <div class="box box2"></div>
     <div class="box box3"></div>

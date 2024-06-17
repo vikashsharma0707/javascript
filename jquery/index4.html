@@ -8,10 +8,16 @@
     <script src="jquery.js"></script>
     <script>
         $(document).ready(function (){
-            $("button").click(function (){
+            $("fadeout").click(function (){
                 $("#mybox").fadeOut ();
                 $(".box2").fadeOut("slow");
                 $(".box2").fadeOut(3000);
+            });
+
+            $("fadein").click(function (){
+                $("#mybox").fadeIn ();
+                $(".box2").fadeIn("slow");
+                $(".box2").fadeIn(3000);
             });
         });
 
@@ -20,8 +26,16 @@
 </head>
 <body>
     <button>Fade</button>
-    <div id="mybox"  class="box box1"></div>
-    <div class="box box2"></div>
-    <div class="box box3"></div>
+
+    <button id="hello"></button>
+    <div id="mybox"  class="box box1">
+        
+    </div>
+    <div class="box box2">
+      
+    </div>
+    <div class="box box3">
+        
+    </div>
 </body>
 </html>
